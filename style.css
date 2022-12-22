@@ -1,0 +1,70 @@
+/* 
+Theme Name : WP Custom Theme
+Author : Kiou59
+Author URI: https://github.com/Kiou59
+require at least: 6.0
+Require PHP : 8.1.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0.0
+*/
+
+body {
+    background-color: pink;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    max-width: 60%;
+    justify-self: center;
+    margin: auto;
+}
+
+figure {
+    margin: auto;
+    justify-self: center;
+}
+
+article {
+    max-width: 70%;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+article li {
+    padding: 2px;
+}
+
+#head {
+    text-align: center;
+}
+
+#footer {
+    justify-content: end;
+}
+
+#footer li {
+    padding: 2%;
+}
+
+.info {
+    justify-content: space-around;
+    font-style: italic;
+}
+
+.categorie,
+.tags {
+    justify-content: space-between;
+    font-style: italic;
+}
